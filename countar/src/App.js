@@ -32,8 +32,6 @@ function App() {
         <div className="watch">
         <button onClick={() => setCheck(true)}>START</button>
       <br/>
-
-      
       <h1>{count}</h1>
       <button onClick={() => setCheck(false)} className="btn2">STOPP</button>
       <button onClick={() => clear()}>CLEAR</button>
